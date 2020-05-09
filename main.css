@@ -1,0 +1,103 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: gray;
+  color: white;
+}
+
+.over {
+  padding: 1em;
+  text-align: center;
+}
+
+img {
+  max-height: 100%;
+  width: 100%;
+  max-width: 100%;
+  /* filter: brightness(0.05); */
+}
+
+.main {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 1em;
+}
+
+.heroText {
+  color: white;
+}
+
+.heroHeader {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  right: 25%;
+  z-index: 2;
+  background-color: darkslategray;
+}
+
+.maincont {
+  width: auto;
+  height: auto;
+  padding-top: 56.25%;
+  padding: 0.5em;
+  background-color: #444444;
+  color: white;
+
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.maincont img {
+  align-self: flex-end;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.cell1 {
+  background-color: green;
+}
+
+.cell2 {
+  background-color: red;
+}
+
+.cell3 {
+  background-color: blue;
+}
+
+.cell4 {
+  background-color: violet;
+}
+
+.cell5 {
+  background-color: hotpink;
+}
+
+.main-gallery {
+  width: 100%;
+  height: inherit;
+  padding-top: 56.25%;
+}
+
+.gallery-cell {
+  margin-right: 0.1em;
+  position: relative;
+  width: inherit;
+  display: block;
+}
+
+.flickity-viewport {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
